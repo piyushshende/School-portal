@@ -1,0 +1,62 @@
+.school_details {
+    margin-top: 0.8%;
+}
+
+.school_details .row .col input {
+    width: 40vw;
+}
+
+.school_details .row .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.school_details .school {
+    border-radius: 10px;
+}
+
+.school_details .row .col input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px dotted green;
+    border-radius: none;
+}
+
+.school_details .row {
+    display: flex;
+}
+
+.school_details .row .col .vw {
+    width: 65vw;
+}
+
+.school_details .w-101 {
+    width: 30vw;
+}
+
+.school_details .row .col .vw-24 {
+    width: 24.5vw;
+}
+
+.school_details .row .col .vw-63 {
+    width: 63vw;
+}
+
+.school_details .d-flex {
+    display: flex;
+}
+
+.school_details .row .col .yborders {
+    border: 1px solid green;
+}
+
+@media(max-width:900px) {
+    .school_details .row {
+        display: block;
+    }
+    .school_details .row .col {
+        display: block;
+    }
+}

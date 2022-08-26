@@ -1,0 +1,162 @@
+.cont2 {
+    margin-top: -0.01%;
+    width: 75vw;
+    display: block;
+    height: 140vh;
+    border: 1px solid white;
+    /* margin-top: -15%; */
+}
+
+.fs1 {
+    font-size: 1.5vw;
+}
+
+.img-thumbnail {
+    border-radius: 50%;
+    height: 20vh;
+    width: 7vw;
+    height: 15vh;
+}
+
+.image {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.userdetails span {
+    height: 28vh;
+    background: white;
+    border: 1px solid white;
+    margin-left: 8%;
+}
+
+.grid {
+    /* border: 1px solid black; */
+    margin-left: 3%;
+}
+
+.grid .row {
+    margin-top: 5%;
+}
+
+.grid .col {
+    /* border: 1px solid black; */
+    width: 15vw;
+    display: flex;
+}
+
+.userdetails {
+    height: 32%;
+    position: absolute;
+    width: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 2%;
+}
+
+.nav {
+    width: fit-content;
+    display: flex;
+    height: fit-content;
+    margin-top: 21%;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.1vw;
+}
+
+.grid1 {
+    /* border: 1px solid black; */
+    display: block;
+    margin-top: 2%;
+}
+
+.grid1 .col .btn-success {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: fit-content;
+}
+
+.text-left {
+    text-align: start;
+    margin-left: 1%;
+}
+
+.text-right {
+    text-align: end;
+    margin-right: 1%;
+}
+
+.studetail .grid1 .col .btn-info {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    width: fit-content;
+    text-align: center;
+}
+
+.uploadimage {
+    width: 10vw;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.btn-sm {
+    width: 10vw;
+    margin-top: 2%;
+}
+
+.personal .col h6 {
+    display: flex;
+    font-size: 1vw;
+}
+
+
+/* .personal .col {
+    border: 1px solid black;
+} */
+
+.personal .col input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #f8f9fa;
+    height: 2.5vh;
+    width: 25vw;
+}
+
+.grid2 {
+    margin-top: 3%;
+    display: flex;
+}
+
+.grid2 .row .personal .col {
+    width: fit-content;
+    /* border: 1px solid black; */
+}
+
+.grid2 .personal .col {
+    width: fit-content;
+    /* border: 1px solid black; */
+}
+
+.grid2 .g1+.g2 {
+    margin-left: 8.5%;
+}
+
+.grid2 .col input {
+    width: 20vw;
+}

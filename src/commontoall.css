@@ -1,0 +1,16 @@
+.commontoall {
+    position: absolute;
+    left: 16.8%;
+    top: 10%;
+    width: 83.2%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media(max-width:900px) {
+    .commontoall {
+        position: relative;
+        width: 100vw;
+        left: 0;
+    }
+}

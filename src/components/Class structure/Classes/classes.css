@@ -1,0 +1,37 @@
+button,
+.addsec {
+    height: 10%;
+}
+
+.row {
+    width: 97%;
+    margin-left: 1.2%;
+}
+
+
+/* .col {
+    border: 1px solid red;
+} */
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.w-10 {
+    width: 2.5vw;
+    height: 5vh;
+    font-size: 1.2vw;
+}
+
+.mybg1 {
+    background-color: rgb(124, 255, 124);
+}
+
+
+/* .classes .container .row .col {
+    border: 1px solid red;
+} */

@@ -1,0 +1,80 @@
+.whole {
+    display: flex;
+}
+
+.whole .school-name-mobile {
+    display: none;
+}
+
+.whole .school-name-desktop {
+    background: rgb(86 225 0);
+    background-size: cover;
+    width: 20vw;
+    height: 10vh;
+}
+
+.whole .school-name-desktop .school {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole .school-name-desktop .ion {
+    /* margin-top: 0%; */
+}
+
+.name a {
+    text-decoration: none;
+    color: white;
+}
+
+.school-name-desktop .name span {
+    display: block;
+}
+
+nav {
+    width: 100vw;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin-right: 3em !important;
+    color: white;
+    font-size: 1.5vw;
+}
+
+@media(max-width:900px) {
+    .whole .school-name-desktop {
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .navbar {
+        width: 20vw;
+    }
+    .whole .school-name-mobile .ion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whole .school-name-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+    }
+    .school-name-mobile .school {
+        background: rgb(86 225 0);
+        width: 62vw;
+        height: 100%;
+    }
+    .whole button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

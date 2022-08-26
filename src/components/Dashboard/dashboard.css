@@ -1,0 +1,86 @@
+.dashboard {
+    display: flex;
+}
+
+.leftd,
+.rightd,
+.middled {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.attendance div p span {
+    /* width: 10%;
+    height: 5vh; */
+}
+
+.d-flex {}
+
+.card div {
+    width: 50%;
+    color: white;
+    /* height: 100%; */
+}
+
+.icon1,
+.stu81,
+.icon2,
+.stu82,
+.icon3,
+.stu83 {
+    height: 7.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stu81 {
+    height: 7.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 {
+    background: rgb(86, 186, 86);
+}
+
+.stu81 {
+    background: green;
+}
+
+.icon2 {
+    background: rgb(108, 146, 229);
+    height: 4.5vw;
+}
+
+.stu82 {
+    background: rgb(85, 105, 255);
+    height: 4.5vw;
+}
+
+.icon3 {
+    background: rgb(252, 131, 122);
+}
+
+.stu83 {
+    background: rgb(245, 78, 78);
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 20vw;
+    height: 5vh;
+}
