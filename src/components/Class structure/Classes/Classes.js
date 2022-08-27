@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import '../../../commontoall.css';
 import './classes.css';
-
+import { useSelector,useDispatch } from "react-redux/es/exports";
+import { Addsections,selectSections } from "../../Redux/Reducer/Classesreducer";
 const Classes = () => {
     const [sections, setSections] = useState([]);
     const [clas,setClas] = useState();
     const [inp, setInp] = useState("");
-    const [data,setData] = useState([]);
+    const reducerSection = useSelector(selectSections);
+    const dispatch = useDispatch();
 
     const handleKeyPress = (e) => {
         if (e.key == 'Enter') {
@@ -22,9 +24,7 @@ const Classes = () => {
         setInp(str);
     }
     const handleDelete = (id) => {
-        console.log(id);
         const newList = sections.filter((item) => item !== id);
-        console.log(newList);
         setSections(newList);
     }
     const handleAddSections = ()=>{
@@ -39,8 +39,7 @@ const Classes = () => {
             class:clas,
             sections:sections
         }
-        setData([...data,newData]);
-        console.log(data);
+        dispatch(Addsections(newData));
         setSections([]);
     }
     }
@@ -65,7 +64,7 @@ const Classes = () => {
 
                     <div class="mt-3">
                     {
-                        data.map((item) => {
+                        reducerSection.map((item) => {
                             return (
                                 <div class="row mt-3 border-top border-success border-opacity-25 d-flex justify-content-center align-items-center">
                                     <div class="col d-flex justify-content-start h-4">
