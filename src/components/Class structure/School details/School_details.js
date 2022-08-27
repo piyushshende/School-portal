@@ -5,7 +5,7 @@ const School_details = () => {
     return (
         <React.Fragment>
             <div className="commontoall">
-                <div class="container school_details">
+                <div class="container school_details bg-light">
                     <div class="school">
                         <h4 class="bg-success h4 text-light text-left px-3 py-1">School Details</h4>
                     </div>

@@ -46,8 +46,8 @@ const Classes = () => {
     return (
         <React.Fragment>
             <div class="commontoall classes">
-                <div class="container w-100">
-                    <div class="bg-success text-light h4 mx-3 d-flex justify-content-start rounded-top">
+                <div class="container W-90 bg-light rounded-top pb-5">
+                    <div class="bg-success text-light h4 d-flex justify-content-start rounded-top w-100">
                         <h4 class="h4 mx-3">Add Classes & Sections</h4>
                     </div>
                     <div class="row">
@@ -143,6 +143,7 @@ const Classes = () => {
                                 class="btn btn-outline-success rounded-pill addsec btn-sm display-6"
                                 onClick = {handleAddSections}
                                 >Add sections</button>
+                                
                             </div>
                         </div>
                     </div>

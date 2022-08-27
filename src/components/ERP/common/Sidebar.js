@@ -14,7 +14,7 @@ import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { faChalkboardTeacher } from "@fortawesome/free-solid-svg-icons";
 import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
-import Dashboard from "../../Dashboard/Dashboard";
+
 
 
 const Sidebar = () => {
@@ -53,7 +53,7 @@ const Sidebar = () => {
                                                     <ul class="accordion-menu" aria-labelledby="offcanvasNavbarDropdown">
                                                         <li class="mt-3"><Link to="/class_structure/school_details"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
                                                         <li class="mt-3"><Link to="/class_structure/classes"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
+                                                        <li class="mt-3"><Link to="/class_structure/subjects"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
                                                         <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
                                                     </ul>
                                                 </div>
