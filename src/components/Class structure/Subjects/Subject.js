@@ -2,10 +2,14 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux/es/hooks/useSelector";
 import { Addsections, selectSections } from "../../Redux/Reducer/Classesreducer";
 import '../../../commontoall.css';
-
-
+import Editsubjects from "./Editsubjects";
 const Subject = () => {
     const data = useSelector(selectSections);
+
+    const handleSectionCheckbox = (e)=>{
+        console.log(e.target.checked);
+    }
+
     return (
         <React.Fragment>
             <div class="commontoall">
@@ -25,23 +29,22 @@ const Subject = () => {
                                                 <label htmlFor="" class="mx-2 fs2">{i+1}</label>
                                             </div>
                                             <div class="col d-flex align-items-center">
-                                                <button type="button" class="btn btn-outline-danger d-flex align-items-center h-75 justify-content-center">EDIT SUBJECTS</button>
+                                                {/* <button type="button" class="btn btn-outline-danger d-flex align-items-center h-75 justify-content-center">EDIT SUBJECTS</button> */}
+                                                <Editsubjects/>
                                             </div>
                                         </div>
                                         <div class="row mt-3">
-                                            <div class="col d-flex justify-content-start align-items-center">
+                                            <div class="col d-block justify-content-start align-items-center">
                                                 {
                                                     item.sections.map((sect,i) => {
                                                         return (
-                                                            <div class="d-flex justify-content-center align-items-center">
-                                                                <input type="checkbox" class="w-75" id="check1" />
-                                                                <label htmlFor="check1" class="mx-2 ">{sect}</label>
+                                                            <div class="d-flex justify-content-start align-items-center flex-direction-row mt-2">
+                                                                <input type="checkbox" class="W-5 H-20" id="check1" onChange = {(e)=>handleSectionCheckbox(e)}/>
+                                                                <label htmlFor="check1" class=" ">{sect}</label>
                                                             </div>
                                                         )
                                                     })
                                                 }
-                                            </div>
-                                            <div class="col">
                                             </div>
                                         </div>
                                     </div>
