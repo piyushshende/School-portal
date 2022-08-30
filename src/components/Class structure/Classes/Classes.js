@@ -64,9 +64,9 @@ const Classes = () => {
 
                     <div class="mt-3">
                     {
-                        reducerSection.map((item) => {
+                        reducerSection.map((item,key) => {
                             return (
-                                <div class="row mt-3 border-top border-success border-opacity-25 d-flex justify-content-center align-items-center">
+                                <div key={key} class="row mt-3 border-top border-success border-opacity-25 d-flex justify-content-center align-items-center">
                                     <div class="col d-flex justify-content-start h-4">
                                         <span class="fs-5">{item.class}</span>
                                     </div>

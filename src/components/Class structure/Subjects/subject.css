@@ -1,0 +1,9 @@
+.display-grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.display-grid-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

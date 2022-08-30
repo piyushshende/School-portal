@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { data } from "jquery";
 
 const Classesreducer = createSlice({
     name:"classes",

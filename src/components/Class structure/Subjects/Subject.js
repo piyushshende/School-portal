@@ -13,7 +13,7 @@ const Subject = () => {
     return (
         <React.Fragment>
             <div class="commontoall">
-                <div class="container W-90 bg-light">
+                <div class="container W-90 bg-light pb-5">
                     <div class="bg-success text-light d-flex justify-content-start rounded-top">
                         <h4 class="h4 mx-3">Add Subject</h4>
                     </div>
@@ -29,8 +29,7 @@ const Subject = () => {
                                                 <label htmlFor="" class="mx-2 fs2">{i+1}</label>
                                             </div>
                                             <div class="col d-flex align-items-center">
-                                                {/* <button type="button" class="btn btn-outline-danger d-flex align-items-center h-75 justify-content-center">EDIT SUBJECTS</button> */}
-                                                <Editsubjects/>
+                                                <Editsubjects />
                                             </div>
                                         </div>
                                         <div class="row mt-3">
