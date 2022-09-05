@@ -36,7 +36,7 @@ const Classes = () => {
         }
         else{
         const newData = {
-            class:clas,
+            Myclass:clas,
             sections:sections
         }
         dispatch(Addsections(newData));
@@ -68,7 +68,7 @@ const Classes = () => {
                             return (
                                 <div key={key} class="row mt-3 border-top border-success border-opacity-25 d-flex justify-content-center align-items-center">
                                     <div class="col d-flex justify-content-start h-4">
-                                        <span class="fs-5">{item.class}</span>
+                                        <span class="fs-5">{item.Myclass}</span>
                                     </div>
                                     <div class="col d-flex justify-content-start mt-3">
                                         {

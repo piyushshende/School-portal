@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import './subject.css';
+import { addSubjects } from "../../Redux/Reducer/Subjectreducer";
+import { useDispatch } from "react-redux";
 
-const Editsubjects = () => {
-
+const Editsubjects = (props) => {
+    const data_bs_target = '#exampleModal'+props.index;
+    const dispatch = useDispatch();
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedSubjects,setSelectedSubjects] = useState([]);
 
@@ -20,6 +23,20 @@ const Editsubjects = () => {
 
     }
 
+    const handleSave = (e)=>{
+        e.preventDefault();
+        if(props.sections.length===0){
+            window.alert('Please select at least one section');
+        }else{
+        const subjectsToBeAdded = {
+            Myclass:props.Myclass,
+            section:props.sections,
+            subjects:selectedSubjects
+        }
+        dispatch(addSubjects(subjectsToBeAdded));
+        }
+    }
+
     const subjects = ['MATHEMATICS', 'PHYSICS', 'CHEMISTRY', 'BIOLOGY', 'COMPUTER SCIENCE', 'HISTORY', 'SOCIAL SCIENCE', 'GEOGRAPHY', 'ENGLISH', 'HINDI',
         'SANSKRIT', 'FRENCH', 'HOME SCIENCE', 'CIVICS', 'ECONOMICS', 'ACCOUNTANCY', 'GK BASIC KNOWLEDGE', 'URDU', 'SCIENCE', 'ENGLISH LIT', 'URDU LIT',
         'DRAWING', 'HINDI LIT', 'E.V.S', 'COMPUTER', 'G.K', 'ENVIRONMENT STUDIES', 'GK'
@@ -27,21 +44,20 @@ const Editsubjects = () => {
 
     return (
         <React.Fragment>
-            <div className="popup">
-                <button type="button" class="btn btn-outline-danger mt-1 W-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div className="popup">   
+                <button type="button" class="btn btn-outline-danger mt-1 W-100" data-bs-toggle="modal" data-bs-target={data_bs_target}>
                     Edit Subjects
                 </button>
 
-                {/* Modal */}
-                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade " id={'exampleModal'+props.index} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header d-block justify-content-start align-items-start text-align-start">
                                 <h5 class="modal-title" id="exampleModalLabel">Edit subjects for sections</h5>
                                 <p>
-                                    Selected Sections:
+                                    <h6>Selected Sections:</h6>
+                                    <h6>Selected class: {props.Myclass}</h6>
                                 </p>
-                                {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
                             </div>
                             <div class="modal-body">
                                 <input type="text" class="w-75" placeholder="Filter Subjects" onChange={(e) => handleSearchTerm(e)} />
@@ -84,7 +100,7 @@ const Editsubjects = () => {
                             </div>
                             <div class="modal-footer d-flex">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-primary" onClick={(e)=>handleSave(e)}>Save</button>
                             </div>
                         </div>
                     </div>
@@ -92,6 +108,9 @@ const Editsubjects = () => {
             </div>
         </React.Fragment>
     )
+
+
+    
 }
 
 export default Editsubjects;
