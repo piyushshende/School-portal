@@ -8,6 +8,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import School_details from './components/Class structure/School details/School_details';
 import Classes from './components/Class structure/Classes/Classes';
 import Subject from './components/Class structure/Subjects/Subject';
+import Updateclassteacher from './components/Class structure/Class Teacher/Updateclassteacher';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="/class_structure/school_details" element={<School_details/>}/>
         <Route path="/class_structure/classes" element={<Classes/>}/>
         <Route path="/class_structure/subjects" element={<Subject/>}/>
-        <Route path="" element/>
+        <Route path="/class_structure/class_teacher" element={<Updateclassteacher/>}/>
         <Route path="" element/>
         <Route path="" element/>
         <Route path="" element/>

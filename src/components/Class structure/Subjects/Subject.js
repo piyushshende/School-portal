@@ -76,8 +76,6 @@ const Subject = () => {
                                                             <div class="d-flex justify-content-start align-items-center flex-direction-row mt-2">
                                                                 <input type="checkbox" class="W-5 H-20" id="check1" onChange = {(e)=>handleSectionCheckbox(e,item.Myclass)} value={sect}/>
                                                                 <label htmlFor="check1" class=" ">{sect}</label>
-                                                                
-
                                                             </div>
                                                         )
                                                     })

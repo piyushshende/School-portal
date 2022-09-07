@@ -54,7 +54,7 @@ const Sidebar = () => {
                                                         <li class="mt-3"><Link to="/class_structure/school_details"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
                                                         <li class="mt-3"><Link to="/class_structure/classes"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
                                                         <li class="mt-3"><Link to="/class_structure/subjects"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to="/class_structure/class_teacher"><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
