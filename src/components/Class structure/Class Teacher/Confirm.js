@@ -3,13 +3,18 @@ import React from "react";
 const Confirm = (props) => {
     const name = props.name;
     const index=props.index+1;
+
+    const seeClick = (e)=>{
+        e.preventDefault();
+        console.log('true');
+    }
+
     return (
         <React.Fragment>
-            <button type="button" class="btn btn-success h-auto" data-bs-toggle="modal" data-bs-target={"#staticBackdrop"+index}>
+            <button type="button" class="btn btn-success h-auto" data-bs-toggle="modal" data-bs-target={"#staticBackdrop"+index} onClick = {e=>seeClick(e)}>
                 {name}
             </button>
-
-            <div class="modal fade" id={"staticBackdrop"+index} data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal" id={"staticBackdrop"+index} data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">

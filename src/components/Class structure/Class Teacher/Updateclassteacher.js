@@ -6,9 +6,8 @@ import Selectteacher from "./Selectteacher";
 import './selectteacher.css';
 
 const Updateclassteacher = () => {
-
     const classesData = useSelector(selectSections);
-    console.log(classesData);
+
 
     return (
         <React.Fragment>
@@ -21,7 +20,7 @@ const Updateclassteacher = () => {
                         <div className="btn btn-primary rounded-pill mx-3">Print</div>
                     </div>
                     <table className="table table-striped mt-4 table-bordered border-dark">
-                        <thead>
+                        <thead >
                             <th scope="col">Class</th>
                             <th scope="col">Student Count</th>
                             <th scope="col">Teacher</th>
@@ -39,15 +38,15 @@ const Updateclassteacher = () => {
                                                     </td>
                                                     <td></td>
                                                     <td>
-                                                    <Selectteacher index={key}/>
+                                                        <Selectteacher index={key} Myclass={str + '-' + sec.toUpperCase()}/>
                                                     </td>
                                                 </tr>
                                             )
                                         }) : 
-                                        <tr>
+                                        <tr i={key}>
                                             <td>{str}</td>
                                             <td></td>
-                                            <td><Selectteacher index={key}/></td>
+                                            <td><Selectteacher index={key} Myclass={str}/></td>
                                         </tr>
                                     
                                     )
