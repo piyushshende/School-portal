@@ -72,10 +72,12 @@ const Sidebar = () => {
                                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Send_Message/All_Students"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />All Students</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Individual Classes</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Whole Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Individual Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Contacts</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />View History</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
