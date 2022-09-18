@@ -3,8 +3,8 @@
     left: 16.8%;
     top: 10%;
     width: 83.2%;
-    height: 100vh;
-    overflow-y: scroll;
+    height: 90%;
+    overflow: auto;
     background: #eef3fc;
 }
 
@@ -106,6 +106,18 @@
 
 .H-110 {
     height: 110%;
+}
+
+.bg-lightwarning {
+    background-color: #ffdc73;
+}
+
+.bg-lightinfo {
+    background-color: #5fdff8;
+}
+
+.bg-lightsuccess {
+    background-color: #21c277
 }
 
 @media(max-width:900px) {

@@ -9,7 +9,7 @@ import School_details from './components/Class structure/School details/School_d
 import Classes from './components/Class structure/Classes/Classes';
 import Subject from './components/Class structure/Subjects/Subject';
 import Updateclassteacher from './components/Class structure/Class Teacher/Updateclassteacher';
-import Allstudents from './components/Send Message/Allstudents';
+import Allstudents from './components/Send Message/Allstudents/Allstudents';
 
 function App() {
   return (
