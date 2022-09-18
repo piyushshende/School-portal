@@ -11,7 +11,7 @@ const Updateclassteacher = () => {
 
     return (
         <React.Fragment>
-            <div class="commontoall">
+            <div class="commontoall pb-3 mb-5">
                 <div class="container W-90 bg-light pb-5">
                     <div class="bg-success text-light d-flex justify-content-start rounded-top">
                         <h4 class="h4 mx-3">Update Class Teacher</h4>

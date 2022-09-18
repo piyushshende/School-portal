@@ -46,7 +46,7 @@ const Classes = () => {
     return (
         <React.Fragment>
             <div class="commontoall classes">
-                <div class="container W-90 bg-light rounded-top pb-5">
+                <div class="container W-90 bg-light rounded-top pb-3 mb-5">
                     <div class="bg-success text-light h4 d-flex justify-content-start rounded-top w-100">
                         <h4 class="h4 mx-3">Add Classes & Sections</h4>
                     </div>
