@@ -13,7 +13,7 @@
 
 .flex-sm-column {
     width: 16.7vw;
-    height: 100vh;
+    height: 90vh;
     overflow-y: scroll;
     overflow-x: hidden;
 }
