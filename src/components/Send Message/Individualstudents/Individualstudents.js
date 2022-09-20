@@ -32,7 +32,7 @@ const Individualstudents = () => {
             <div className="commontoall">
                 <div className="container W-95 bg-light mb-5 pb-3">
                     <div className="bg-success W-100 text-light d-flex justify-content-start rounded-top">
-                        <h4 className="h4 mx-3">Send to Some Classes</h4>
+                        <h4 className="h4 mx-3">Send to Some Students</h4>
                     </div>
                     <div className="mt-3 d-flex flex-column">
                         <div className="d-flex justify-content-start mx-5">

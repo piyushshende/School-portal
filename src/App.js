@@ -12,6 +12,9 @@ import Updateclassteacher from './components/Class structure/Class Teacher/Updat
 import Allstudents from './components/Send Message/Allstudents/Allstudents';
 import Individualclasses from './components/Send Message/Individualclasses/Individualclasses';
 import Individualstudents from './components/Send Message/Individualstudents/Individualstudents';
+import Wholestaff from './components/Send Message/Wholestaff/Wholestaff';
+import Department from './components/Send Message/Department/Department';
+import Individualstaff from './components/Send Message/Individualstaff/Individualstaff';
 
 function App() {
   return (
@@ -29,9 +32,9 @@ function App() {
         <Route path="/Send_Message/All_Students" element={<Allstudents/>}/>
         <Route path="/Send_Message/Individual_Classes" element={<Individualclasses/>}/>
         <Route path="/Send_Message/Individual_Students" element={<Individualstudents/>}/>
-        <Route path="" element/>
-        <Route path="" element/>
-        <Route path="" element/>
+        <Route path="/Send_Message/Whole_Staff" element={<Wholestaff/>}/>
+        <Route path="/Send_Message/Department" element={<Department/>}/>
+        <Route path="/Send_Message/Individual_Staff" element={<Individualstaff/>}/>
         <Route path="" element/>
         <Route path="" element/>
         <Route path="" element/>
