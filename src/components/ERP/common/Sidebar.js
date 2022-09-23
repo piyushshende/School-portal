@@ -78,7 +78,7 @@ const Sidebar = () => {
                                                         <li class="mt-3"><Link to="/Send_Message/Whole_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Whole Staff</a></Link></li>
                                                         <li class="mt-3"><Link to="/Send_Message/Department"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Department</a></Link></li>
                                                         <li class="mt-3"><Link to="/Send_Message/Individual_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Individual Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />View History</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Send_Message/View_History"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />View History</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>

@@ -15,6 +15,7 @@ import Individualstudents from './components/Send Message/Individualstudents/Ind
 import Wholestaff from './components/Send Message/Wholestaff/Wholestaff';
 import Department from './components/Send Message/Department/Department';
 import Individualstaff from './components/Send Message/Individualstaff/Individualstaff';
+import Viewhistory from './components/Send Message/Viewhistory/Viewhistory';
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
         <Route path="/Send_Message/Whole_Staff" element={<Wholestaff/>}/>
         <Route path="/Send_Message/Department" element={<Department/>}/>
         <Route path="/Send_Message/Individual_Staff" element={<Individualstaff/>}/>
-        <Route path="" element/>
+        <Route path="/Send_Message/View_History" element = {<Viewhistory/>}/>
         <Route path="" element/>
         <Route path="" element/>
         <Route path="" element/>
