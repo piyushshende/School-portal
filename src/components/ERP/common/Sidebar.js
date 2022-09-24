@@ -96,10 +96,12 @@ const Sidebar = () => {
                                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Add_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Students</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Students</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Move Students</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Upload Photos</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Manage Groups</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Update Students(Excel)</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
