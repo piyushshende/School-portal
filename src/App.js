@@ -16,7 +16,10 @@ import Wholestaff from './components/Send Message/Wholestaff/Wholestaff';
 import Department from './components/Send Message/Department/Department';
 import Individualstaff from './components/Send Message/Individualstaff/Individualstaff';
 import Viewhistory from './components/Send Message/Viewhistory/Viewhistory';
-import Addstudents from './components/Manage Students/Addstudents';
+import Addstudents from './components/Manage Students/Addstudents/Addstudents';
+import Liststudents from './components/Manage Students/Liststudents/Liststudents';
+import Movestudents from './components/Manage Students/Movestudents/Movestudents';
+import Classstudentlist from './components/Manage Students/Classstudentslist/Classstudentlist';
 
 function App() {
   return (
@@ -39,9 +42,9 @@ function App() {
         <Route path="/Send_Message/Individual_Staff" element={<Individualstaff/>}/>
         <Route path="/Send_Message/View_History" element = {<Viewhistory/>}/>
         <Route path="/Manage_Students/Add_Students" element={<Addstudents/>}/>
-        <Route path="" element/>
-        <Route path="" element/>
-        <Route path="" element/>
+        <Route path="/Manage_Students/List_Students" element={<Liststudents/>}/>
+        <Route path="/Manage_Students/Move_Students" element={<Movestudents/>}/>
+        <Route path="/Manage_Students/Class_Students_Lists" element={<Classstudentlist/>}/>
         <Route path="" element/>
       </Routes>
       </BrowserRouter>

@@ -97,11 +97,9 @@ const Sidebar = () => {
                                                 <div class="accordion-body">
                                                     <ul>
                                                         <li class="mt-3"><Link to="/Manage_Students/Add_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Students</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Students</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Move Students</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Upload Photos</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Manage Groups</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Update Students(Excel)</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/List_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Students</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Move_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Move Students</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Class_Students_Lists"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Class Students Lists</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>

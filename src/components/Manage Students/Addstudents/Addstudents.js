@@ -1,5 +1,5 @@
 import React from "react";
-import '../../commontoall.css';
+import '../../../commontoall.css';
 
 const Addstudents = () => {
     return (
