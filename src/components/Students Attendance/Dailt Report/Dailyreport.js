@@ -23,7 +23,7 @@ const Dailyreport = () => {
                             </div>
                         </div>
                         <div className="yellow d-flex col justify-content-end">
-                                <div className="d-flex flex-column justify-content-center W-30 bg-lightdanger` rounded-start">
+                                <div className="d-flex flex-column justify-content-center W-30 bg-lightdanger rounded-start">
                                     <FontAwesomeIcon icon={faPeopleGroup} className="text-light W-100 fa-4x" />
                                 </div>
                                 <div className="d-flex flex-column justify-content-center align-items-center W-30 bg-danger rounded-end">
