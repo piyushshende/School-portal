@@ -29,8 +29,25 @@ const Dailyreport = () => {
                                 <div className="d-flex flex-column justify-content-center align-items-center W-30 bg-danger rounded-end">
                                     <h6 className="text-light fs-5">Absent</h6>
                                 </div>
-                            </div>
+                        </div>
                     </div>
+                    <div className="border border-outline-dark mt-4 d-flex justify-content-start align-items-center h-25 bg-lightinfo rounded p-3 fs-1">
+                        <h6>Unmarked Attendance Classes:</h6>
+                    </div>
+                    <h6 className="text-start mt-4">Student Absentee Report</h6>
+                    <table className="mt-2 border">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>SR No</th>
+                                <th>Student</th>
+                                <th>Father</th>
+                                <th>Contact</th>
+                                <th>Class</th>
+                                <th>Section</th>
+                            </tr>
+                        </thead>
+                    </table>
                 </div>
 
             </div>

@@ -119,7 +119,7 @@ const Sidebar = () => {
                                                     <ul>
                                                         <li class="mt-3"><Link to="/Students_Attendance/Mark_Attendance"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Mark Attendance</a></Link></li>
                                                         <li class="mt-3"><Link to="/Students_Attendance/Daily_Report"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Daily Report</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Attendance Slots</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Attendance_Slot"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Attendance Slots</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
