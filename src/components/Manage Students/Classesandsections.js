@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import '../../commontoall.css'
 import { useSelector } from "react-redux";
 import { selectSections } from "../Redux/Reducer/Classesreducer";
 
-const Classesandsections = () => {
+const Classesandsections = (props) => {
     const classes = useSelector(selectSections);
     const [sections, setSections] = useState([]);
     const [currentClass, setCurrentClass] = useState();
     const [selectedSections, setSelectedSections] = useState([]);
 
+    useEffect(()=>{
+        console.log(sections,currentClass,selectedSections);
+    },[sections,currentClass,selectedSections])
     const handleClassButton = (e, Myclass) => {
         e.preventDefault();
         const sec = classes.filter((item) => { return item.Myclass === Myclass });
@@ -20,6 +23,7 @@ const Classesandsections = () => {
         const str = currentClass + '-' + sec;
         setSelectedSections([...selectedSections, str]);
         console.log(selectedSections);
+        props.parentCallBack(selectedSections);
     }
 
     return (

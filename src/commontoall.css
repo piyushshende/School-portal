@@ -128,6 +128,10 @@
     background-color: #21c277
 }
 
+.bg-lightdanger {
+    background-color: rgb(249, 119, 119)
+}
+
 @media(max-width:900px) {
     .commontoall {
         position: relative;

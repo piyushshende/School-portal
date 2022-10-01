@@ -20,6 +20,8 @@ import Addstudents from './components/Manage Students/Addstudents/Addstudents';
 import Liststudents from './components/Manage Students/Liststudents/Liststudents';
 import Movestudents from './components/Manage Students/Movestudents/Movestudents';
 import Classstudentlist from './components/Manage Students/Classstudentslist/Classstudentlist';
+import MarkAttendance from './components/Students Attendance/Mark Attendance/MarkAttendance';
+import Dailyreport from './components/Students Attendance/Dailt Report/Dailyreport';
 
 function App() {
   return (
@@ -45,7 +47,8 @@ function App() {
         <Route path="/Manage_Students/List_Students" element={<Liststudents/>}/>
         <Route path="/Manage_Students/Move_Students" element={<Movestudents/>}/>
         <Route path="/Manage_Students/Class_Students_Lists" element={<Classstudentlist/>}/>
-        <Route path="" element/>
+        <Route path="/Students_Attendance/Mark_Attendance" element={<MarkAttendance/>}/>
+        <Route path="/Students_Attendance/Daily_Report" element={<Dailyreport/>}/>
       </Routes>
       </BrowserRouter>
     </div>

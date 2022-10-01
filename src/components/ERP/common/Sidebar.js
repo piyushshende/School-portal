@@ -117,10 +117,9 @@ const Sidebar = () => {
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Mark_Attendance"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Mark Attendance</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Daily_Report"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Daily Report</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Attendance Slots</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
