@@ -61,7 +61,7 @@ const Individualstudents = () => {
                         </div>
                         <div className="mx-5 mt-4 ">
                             <div class="input-group mb-3">
-                                <select class="form-select" id="inputGroupSelect01">
+                                <select className="form-select text-start rounded-0" id="inputGroupSelect01">
                                     <option selected>Choose...</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>

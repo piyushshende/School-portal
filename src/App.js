@@ -24,6 +24,10 @@ import MarkAttendance from './components/Students Attendance/Mark Attendance/Mar
 import Dailyreport from './components/Students Attendance/Dailt Report/Dailyreport';
 import Attendanceslots from './components/Students Attendance/Attendance Slots/Attendanceslots';
 import Searchstaff from './components/Manage Staff/Search Staff/Searchstaff';
+import Addstaff from './components/Manage Staff/Add Staff/Addstaff';
+import Liststaff from './components/Manage Staff/List Staff/Liststaff';
+import Staffexcel from './components/Manage Staff/Staff Excel/Staffexcel';
+import Listdepartments from './components/Manage Staff/List Departments/Listdepartments';
 
 function App() {
   return (
@@ -53,6 +57,10 @@ function App() {
         <Route path="/Students_Attendance/Daily_Report" element={<Dailyreport/>}/>
         <Route path="/Students_Attendance/Attendance_Slot" element={<Attendanceslots/>}/>
         <Route path="/Manage_Staff/Search_Staff" element={<Searchstaff/>}/>
+        <Route path="/Manage_Staff/Add_Staff" element={<Addstaff/>}/>
+        <Route path="/Manage_Staff/List_Staff" element={<Liststaff/>}/>
+        <Route path="/Manage_Staff/Staff_Excel" element={<Staffexcel/>}/>
+        <Route path="/Manage_Staff/List_Departments" element={<Listdepartments/>}/>
       </Routes>
       </BrowserRouter>
     </div>

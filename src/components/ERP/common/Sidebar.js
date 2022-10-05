@@ -183,6 +183,7 @@ const Sidebar = () => {
                                                         <li class="mt-3"><Link to="/Manage_Staff/Add_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Staff</a></Link></li>
                                                         <li class="mt-3"><Link to="/Manage_Staff/List_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Staff</a></Link></li>
                                                         <li class="mt-3"><Link to="/Manage_Staff/Staff_Excel"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Staff Excel</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Departments"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Departments</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>

@@ -6,7 +6,7 @@ const Searchstaff = () => {
             <div className="commontoall">
                 <div className="container W-95 bg-light mb-5 pb-3">
                     <div className="bg-success W-100 text-light d-flex justify-content-start rounded-top">
-                        <h4 className="h4 mx-3">Add Students</h4>
+                        <h4 className="h4 mx-3">Search Staff</h4>
                     </div>
                     <div className="d-flex mt-5">
                         <select className="w-auto form-select rounded-start bg-primary text-light rounded-2 rounded-end" aria-label="Default select example">
