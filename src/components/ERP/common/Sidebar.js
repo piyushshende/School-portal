@@ -137,10 +137,10 @@ const Sidebar = () => {
                                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Search Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Staff Excel</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -179,10 +179,10 @@ const Sidebar = () => {
                                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faSchool} className="wid" />School Details</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faMobileScreen} className="wid" />Classes</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faBook} className="wid" />Subjects</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon icon={faChalkboardTeacher} className="wid" />Class Teacher</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Search_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Search Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Add_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Staff_Excel"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Staff Excel</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
