@@ -28,6 +28,7 @@ import Addstaff from './components/Manage Staff/Add Staff/Addstaff';
 import Liststaff from './components/Manage Staff/List Staff/Liststaff';
 import Staffexcel from './components/Manage Staff/Staff Excel/Staffexcel';
 import Listdepartments from './components/Manage Staff/List Departments/Listdepartments';
+import Markstaffattendance from './components/Staff Attendance/Markattendance/Markstaffattendance';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/Manage_Staff/List_Staff" element={<Liststaff/>}/>
         <Route path="/Manage_Staff/Staff_Excel" element={<Staffexcel/>}/>
         <Route path="/Manage_Staff/List_Departments" element={<Listdepartments/>}/>
+        <Route path="/Staff_Attendance/Mark_Attendance" element={<Markstaffattendance/>}/>
       </Routes>
       </BrowserRouter>
     </div>

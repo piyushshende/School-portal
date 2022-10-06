@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
+import Adddesignation from "./Adddesignation";
 
 const Listdepartments = () => {
     return (
@@ -45,7 +46,7 @@ const Listdepartments = () => {
                                             <td className="border border-dark pe-5 text-secondary">IT</td>
                                             <td className="border border-dark pe-5 text-secondary">Website Admin</td>
                                             <td className="border border-dark pe-5 text-secondary">
-                                                <button className="btn btn-outline-primary w-auto text-center">+</button>
+                                                <Adddesignation/>
                                             </td>
                                             <td className="border border-dark pe-5 text-secondary">
                                                 <button className="btn btn-outline-danger w-auto text-center H-10">

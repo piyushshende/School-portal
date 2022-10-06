@@ -96,10 +96,10 @@ const Sidebar = () => {
                                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to="/Manage_Students/Add_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Students</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Students/List_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Students</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Students/Move_Students"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Move Students</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Students/Class_Students_Lists"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Class Students Lists</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Add_Students"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Add Students</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/List_Students"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />List Students</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Move_Students"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Move Students</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Students/Class_Students_Lists"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Class Students Lists</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -117,9 +117,9 @@ const Sidebar = () => {
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to="/Students_Attendance/Mark_Attendance"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Mark Attendance</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Students_Attendance/Daily_Report"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Daily Report</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Students_Attendance/Attendance_Slot"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Attendance Slots</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Mark_Attendance"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Mark Attendance</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Daily_Report"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Daily Report</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Students_Attendance/Attendance_Slot"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Attendance Slots</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -137,10 +137,10 @@ const Sidebar = () => {
                                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Search Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Staff Excel</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Search Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Add Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />List Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to=""><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Staff Excel</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -179,11 +179,11 @@ const Sidebar = () => {
                                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <ul>
-                                                        <li class="mt-3"><Link to="/Manage_Staff/Search_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Search Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Staff/Add_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Add Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Staff</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Staff/Staff_Excel"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />Staff Excel</a></Link></li>
-                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Departments"><a class="accordion-item" href="#"><FontAwesomeIcon  className="wid" />List Departments</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Search_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Search Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Add_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Add Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Staff"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />List Staff</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/Staff_Excel"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Staff Excel</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Manage_Staff/List_Departments"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />List Departments</a></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -191,8 +191,24 @@ const Sidebar = () => {
                                     </a>
                                 </li>
                                 <li class="nav-item mx-3 w-75">
-                                    <a class="nav-link text-success fs-6" href="#"><Link to=""><FontAwesomeIcon icon={faDashboard} className="wid" />Staff Attendance</Link></a>
-                                </li>
+                                    <a class="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingEight">
+                                                <button class="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                    <FontAwesomeIcon icon={faNoteSticky} className="wid" />Staff Attendance
+                                                </button>
+                                            </h2>
+                                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="mt-3"><Link to="/Staff_Attendance/Mark_Attendance"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Mark Attendance</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Staff_Attendance/Daily_Report"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Daily Report</a></Link></li>
+                                                        <li class="mt-3"><Link to="/Staff_Attendance/Attendance_Slots"><a class="accordion-item" href="#"><FontAwesomeIcon className="wid" />Attendance Slots</a></Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>                                </li>
                                 <li class="nav-item mx-3 w-75">
                                     <a class="nav-link text-success fs-6" href="#"><Link to=""><FontAwesomeIcon icon={faCalendar} className="wid" />View Birthdays</Link></a>
                                 </li>
