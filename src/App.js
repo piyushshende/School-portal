@@ -29,6 +29,9 @@ import Liststaff from './components/Manage Staff/List Staff/Liststaff';
 import Staffexcel from './components/Manage Staff/Staff Excel/Staffexcel';
 import Listdepartments from './components/Manage Staff/List Departments/Listdepartments';
 import Markstaffattendance from './components/Staff Attendance/Markattendance/Markstaffattendance';
+import Staffattendanceslots from './components/Staff Attendance/Attendanceslots/Staffattendanceslots';
+import Staffdailyreport from './components/Staff Attendance/Dailyreport/Staffdailyreport';
+import Viewbirthdays from './components/Viewbirthdays/Viewbirthdays'
 
 function App() {
   return (
@@ -63,6 +66,10 @@ function App() {
         <Route path="/Manage_Staff/Staff_Excel" element={<Staffexcel/>}/>
         <Route path="/Manage_Staff/List_Departments" element={<Listdepartments/>}/>
         <Route path="/Staff_Attendance/Mark_Attendance" element={<Markstaffattendance/>}/>
+        <Route path="/Staff_Attendance/Attendance_Slots" element={<Staffattendanceslots/>}/>
+        <Route path="/Staff_Attendance/Daily_Report" element={<Staffdailyreport/>}/>
+        <Route path="/View_Birthdays" element={<Viewbirthdays/>}/>
+
       </Routes>
       </BrowserRouter>
     </div>
