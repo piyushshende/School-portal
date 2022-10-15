@@ -31,7 +31,8 @@ import Listdepartments from './components/Manage Staff/List Departments/Listdepa
 import Markstaffattendance from './components/Staff Attendance/Markattendance/Markstaffattendance';
 import Staffattendanceslots from './components/Staff Attendance/Attendanceslots/Staffattendanceslots';
 import Staffdailyreport from './components/Staff Attendance/Dailyreport/Staffdailyreport';
-import Viewbirthdays from './components/Viewbirthdays/Viewbirthdays'
+import Viewbirthdays from './components/Viewbirthdays/Viewbirthdays';
+import Calendarevents from './components/Calendar Events/Calendarevents';
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
         <Route path="/Staff_Attendance/Attendance_Slots" element={<Staffattendanceslots/>}/>
         <Route path="/Staff_Attendance/Daily_Report" element={<Staffdailyreport/>}/>
         <Route path="/View_Birthdays" element={<Viewbirthdays/>}/>
+        <Route path="/Calendar_Events" element={<Calendarevents/>}/>
 
       </Routes>
       </BrowserRouter>

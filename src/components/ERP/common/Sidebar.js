@@ -212,6 +212,9 @@ const Sidebar = () => {
                                 <li class="nav-item mx-3 w-75">
                                     <a class="nav-link text-success fs-6" href="#"><Link to="/View_Birthdays"><FontAwesomeIcon icon={faCalendar} className="wid" />View Birthdays</Link></a>
                                 </li>
+                                <li class="nav-item mx-3 w-75">
+                                    <a class="nav-link text-success fs-6" href="#"><Link to="/Calendar_Events"><FontAwesomeIcon icon={faCalendar} className="wid" />Calendar Events</Link></a>
+                                </li>
                             </ul>
 
                         </div>
