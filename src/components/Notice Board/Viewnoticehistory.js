@@ -1,4 +1,5 @@
 import React from "react";
+import Actions from "./Actions";
 
 const Viewnoticehistory = () => {
     return (
@@ -29,6 +30,39 @@ const Viewnoticehistory = () => {
                     <div className="col text-secondary fw-bold">
                         <label htmlFor="go"></label>
                         <button className="mt-4 btn btn-primary h-auto rounded-pill mt-1">GO</button>
+                    </div>
+                </div>
+                <div className="row mt-5">
+                    <div className="col text-start">
+                        <button className="btn btn-success w-auto h-auto rounded-pill">PRINT</button>
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Body</th>
+                                    <th scope="col">Category</th>
+                                    <th scope="col">Start Time</th>
+                                    <th scope="col">End Time</th>
+                                    <th scope="col">Sent To</th>
+                                    <th scope="col">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Gardening Classes</td>
+                                    <td>School is organizing gardening classes in morning 6 to 7 am</td>
+                                    <td></td>
+                                    <td>05 Jun 2019 12:00 pm</td>
+                                    <td>12 Jun 2019 12:01 pm</td>
+                                    <td>WHOLE SCHOOL</td>
+                                    <td><Actions/></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

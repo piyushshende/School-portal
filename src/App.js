@@ -35,6 +35,7 @@ import Viewbirthdays from './components/Viewbirthdays/Viewbirthdays';
 import Calendarevents from './components/Calendar Events/Calendarevents';
 import Wholeschool from './components/Notice Board/Wholeschool';
 import Viewnoticehistory from './components/Notice Board/Viewnoticehistory';
+import Pending from './components/Leave App/Pending';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
         <Route path="/Calendar_Events" element={<Calendarevents/>}/>
         <Route path="/Notice_Board/Whole_School" element={<Wholeschool/>}/>
         <Route path="/Notice_Board/View_History" element={<Viewnoticehistory/>}/>
+        <Route path="/Leave_App/Pending" element={<Pending/>}/>
       </Routes>
       </BrowserRouter>
     </div>

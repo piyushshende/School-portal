@@ -186,7 +186,27 @@ const Sidebar = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>                                </li>
+                                    </a>                                
+                                </li>
+                                <li className="nav-item mx-3 w-75">
+                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingNine">
+                                                <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                    <FontAwesomeIcon icon={faNoteSticky} className="wid" />Leave App
+                                                </button>
+                                            </h2>
+                                            <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <ul>
+                                                        <li className="mt-3"><Link to="/Leave_App/Pending"><a className="accordion-item" href="#"><FontAwesomeIcon className="wid" />Pending</a></Link></li>
+                                                        <li className="mt-3"><Link to="/Leave App/ApprovedRejected"><a className="accordion-item" href="#"><FontAwesomeIcon className="wid" />Approved/Rejected</a></Link></li>                                                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>                                
+                                </li>
                                 <li className="nav-item mx-3 w-75">
                                     <a className="nav-link text-success fs-6" href="#"><Link to="/View_Birthdays"><FontAwesomeIcon icon={faCalendar} className="wid" />View Birthdays</Link></a>
                                 </li>
