@@ -41,7 +41,7 @@ const Dashboard = () => {
         <React.Fragment>
             <div className="commontoall dashboard">
                 <div className="leftd">
-                    <div class="container">
+                    <div class="container row">
                         <div className="card">
                             <div className="icon1">
                                 <h1 class="h1"><FontAwesomeIcon icon={faPeopleGroup} /></h1>
@@ -87,7 +87,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="middled">
+                <div className="middled row">
                     <div class="container">
                         <div className="card">
                             <div className="icon2">
@@ -127,7 +127,7 @@ const Dashboard = () => {
                     </div>
 
                 </div>
-                <div className="rightd">
+                <div className="rightd row">
                     <div class="container">
                         <div className="card">
                             <div className="icon3">

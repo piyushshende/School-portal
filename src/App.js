@@ -33,6 +33,8 @@ import Staffattendanceslots from './components/Staff Attendance/Attendanceslots/
 import Staffdailyreport from './components/Staff Attendance/Dailyreport/Staffdailyreport';
 import Viewbirthdays from './components/Viewbirthdays/Viewbirthdays';
 import Calendarevents from './components/Calendar Events/Calendarevents';
+import Wholeschool from './components/Notice Board/Wholeschool';
+import Viewnoticehistory from './components/Notice Board/Viewnoticehistory';
 
 function App() {
   return (
@@ -71,7 +73,8 @@ function App() {
         <Route path="/Staff_Attendance/Daily_Report" element={<Staffdailyreport/>}/>
         <Route path="/View_Birthdays" element={<Viewbirthdays/>}/>
         <Route path="/Calendar_Events" element={<Calendarevents/>}/>
-
+        <Route path="/Notice_Board/Whole_School" element={<Wholeschool/>}/>
+        <Route path="/Notice_Board/View_History" element={<Viewnoticehistory/>}/>
       </Routes>
       </BrowserRouter>
     </div>
