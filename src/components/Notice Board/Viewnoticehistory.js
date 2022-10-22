@@ -6,7 +6,7 @@ const Viewnoticehistory = () => {
         <div className="commontoall">
             <div className="container W-95 bg-light mb-5 pb-3">
                 <div className="bg-success W-100 text-light d-flex justify-content-start rounded-top">
-                    <h4 className="h4 mx-3"></h4>
+                    <h4 className="h4 mx-3">Notice History</h4>
                 </div>
                 <div className="row mt-3 text-start d-flex align-items-center">
                     <div className="col text-secondary fw-bold">
