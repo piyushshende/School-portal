@@ -4,126 +4,96 @@ import './schooldetails.css';
 const School_details = () => {
     return (
         <React.Fragment>
-            <div className="commontoall pb-3 mb-5">
-                <div class="container school_details bg-light">
-                    <div class="school">
-                        <h4 class="bg-success h4 text-light text-left px-3 py-1">School Details</h4>
+            <div className="commontoall">
+                <div className="container W-95 bg-light mb-5 pb-3">
+                    <div className="bg-success W-100 text-light d-flex justify-content-start rounded-top">
+                        <h4 className="h4 mx-3">School Details</h4>
                     </div>
-                    <div className="details text-left px-3">
-                        <div class="row">
-                            <div class="col w-25 d-flex align-items-end justify-content-start">
-                                <h6 class=" blockquote h6">School Name:</h6>
-                            </div>
-                            <div class="col d-flex align-items-center justify-content-center">
-                                <input type="text" class="form-control text-success vw" id="exampleFormControlInput1" placeholder="ABC MODERN SCHOOL" />
+                    <div className="mt-3 text-secondary">
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">School Name:</h6>
+                                <input type="text" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="col d-flex align-items-end justify-content-start ">
-                                <h6 class="blockquote h6">Address:</h6>
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control text-success vw" id="exampleFormControlInput1" placeholder="NEAR PARK AVENUE HOTEL, COURT ROAD" />
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center w-100">
+                                <h6 className="h6 w-25">Address:</h6>
+                                <input type="text" className=" text-start w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="row d-flex">
-                                <div class="col w-25 d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6">City:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control text-success w-100" id="exampleFormControlInput1" placeholder="SIKAR" />
-                                </div>
-                                <div class="col w-25 d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6 w-25">State:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control text-success w-100" id="exampleFormControlInput1" placeholder="RAJASTHAN" />
-                                </div>
-                                <div class="col w-25 d-flex align-items-end justify-content-start">
-                                    <h6 class=" h6 blockquote w-25">Pincode:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control text-success w-100" id="exampleFormControlInput1" placeholder="112233" />
-                                </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">City:</h6>
+                                <input type="text" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">State:</h6>
+                                <input type="text" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Pincode:</h6>
+                                <input type="number" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="row d-flex">
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <h6 class=" h6 blockquote">Contact1:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="tel" class="form-control text-success vw-24" id="exampleFormControlInput1" placeholder="123456789" />
-                                </div>
-                                <div class="col w-25 d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote w-25 h6">Contact2:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="tel" class="form-control text-success vw-24" id="exampleFormControlInput1" placeholder="987654321" />
-                                </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Contact1:</h6>
+                                <input type="number" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Contact2:</h6>
+                                <input type="number" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="row d-flex">
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6">Email:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="email" class="form-control text-success vw-24" id="exampleFormControlInput1" placeholder="info@schoollog.in" />
-                                </div>
-                                <div class="col w-25 d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote w-25 h6">Village:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="number" class="form-control text-success vw-24" id="exampleFormControlInput1" placeholder="SIKAR" />
-                                </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Email:</h6>
+                                <input type="email" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Village:</h6>
+                                <input type="text" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="row d-flex justify-content-center align-items-center">
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6">Parent Organisation:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="email" class="form-control text-success vw-63" id="exampleFormControlInput1" placeholder="info@schoollog.in" />
-                                </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">Parent Organisation:</h6>
+                                <input type="email" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="row d-flex">
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <div>
-                                        <h6 for="formFileLg" class="form-label blockquote h6">School logo</h6>
-                                        <input class="form-control form-control-lg yborders mt-3" id="formFileLg" type="file" />
-                                    </div>
-                                </div>
+                        <div className="row text-start mt-4">
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6 w-25">School Logo</h6>
+                                <input type="file" className="w-100 bg-transparent " />
+                            </div>
+                            <div className="col d-flex align-items-center">
+                                <h6 className="h6">School Logo(SMALL)</h6>
+                                <input type="file" className="w-auto bg-transparent" />
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <h6 class="blockquote h6">School Location(Select on map)</h6>
-                            <div class="row d-flex">
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6">Latitude:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="email" class="form-control text-success w-100" id="exampleFormControlInput1" placeholder="info@schoollog.in" />
-                                </div>
-                                <div class="col d-flex align-items-end justify-content-start">
-                                    <h6 class="blockquote h6">Longitude:</h6>
-                                </div>
-                                <div class="col">
-                                    <input type="email" class="form-control text-success w-100" id="exampleFormControlInput1" placeholder="info@schoollog.in" />
-                                </div>
-                                <div class="col">
-                                    <button type="button" class="btn btn-warning d-flex w-50 justify-content-center blockquote align-items-center text-dark">Show Map</button>
-                                </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-block align-items-center">
+                                <h6 className="h6 w-25">Latitude</h6>
+                                <input type="number" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                            <div className="col d-block align-items-center">
+                                <h6 className="h6 w-25">Longitude</h6>
+                                <input type="number" className="w-100 bg-transparent border-top-0 border-end-0 border-start-0 border-bottom border-success" />
+                            </div>
+                        </div>
+                        <div className="row text-start mt-3">
+                            <div className="col d-block align-items-center">
+                                <button className="bg-warning rounded-pill w-100 h-auto border-warning fw-bold">SHOW MAP</button>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
+
+
+
+
         </React.Fragment>
     )
 
