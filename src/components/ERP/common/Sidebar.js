@@ -20,7 +20,7 @@ import { faHistory } from "@fortawesome/free-solid-svg-icons";
 const Sidebar = () => {
     return (
         <React.Fragment>
-            <nav className="flex-sm-column bg-dark sidebar">
+            <nav className="flex-sm-column bg-dark sidebar text-center">
                 <nav className="navbar navbar-expand-lg bg-dark">
                     <div className="container-fluid d-flex flex-column">
                         <button className="navbar-toggler bg-light text-primary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +28,19 @@ const Sidebar = () => {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column justify-content-center align-items-start mx-5">
-                                <li className="nav-item text-success mt-5 mx-3 pt-3 only-bottom-border">
+                                <li className="nav-item text-success mt-5 ms-3 pt-3 only-bottom-border">
                                     <form role="search">
                                         <input className="form-control me-4 bg-dark" type="search" placeholder="Search..." aria-label="Search" />
                                     </form>
                                 </li>
-                                <li className="nav-item text-success mt-1 mx-1 me-4 w-75">
+                                <li className="nav-item text-success mt-1 me-4 w-75">
                                     <a className="nav-link text-success fs-6 " aria-current="page" href="#"><Link to="/searchstudent"><FontAwesomeIcon icon={faSearch} className="wid" />Search Student</Link></a>
                                 </li>
-                                <li className="nav-item mt-3 w-75">
+                                <li className="mt-3 w-75">
                                     <a className="nav-link text-success fs-6" href="#"><Link to="/dashboard"><FontAwesomeIcon icon={faTachometer} className="wid" />Dashboard</Link></a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success fs-6 accordion" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item accordion-flush">
                                             <h2 className="accordion-header" id="headingOne">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -61,8 +61,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4 text-center">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingTwo">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -85,8 +85,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingThree">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -106,8 +106,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFour">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -126,8 +126,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingSix">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -146,8 +146,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingSeven">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -168,8 +168,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li className="nav-item mx-3 w-75">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 w-75 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingEight">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -188,8 +188,8 @@ const Sidebar = () => {
                                         </div>
                                     </a>                                
                                 </li>
-                                <li className="nav-item mx-3 w-75">
-                                    <a className="nav-link text-success accordion fs-6" href="#" id="accordionExample">
+                                <li className="nav-item ms-3 w-75 mt-4">
+                                    <a className="nav-link text-success fs-6" href="#" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingNine">
                                                 <button className="accordion-button text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -207,10 +207,10 @@ const Sidebar = () => {
                                         </div>
                                     </a>                                
                                 </li>
-                                <li className="nav-item mx-3 w-75">
+                                <li className="nav-item w-75 me-5 mt-4">
                                     <a className="nav-link text-success fs-6" href="#"><Link to="/View_Birthdays"><FontAwesomeIcon icon={faCalendar} className="wid" />View Birthdays</Link></a>
                                 </li>
-                                <li className="nav-item mx-3 w-75">
+                                <li className="nav-item me-4 w-75 mt-3">
                                     <a className="nav-link text-success fs-6" href="#"><Link to="/Calendar_Events"><FontAwesomeIcon icon={faCalendar} className="wid" />Calendar Events</Link></a>
                                 </li>
                             </ul>

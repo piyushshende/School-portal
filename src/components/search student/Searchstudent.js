@@ -38,9 +38,9 @@ const Searchstudent = () => {
             <div className="commontoall">
                 <div className="container bg-light cont1">
                     <div class="input-group">
-                        <select name="Name" id="" placeholder="name" class='bg-primary' onChange={e=>handleChange(e.target.value)}>
+                        <select name="Name" id="" placeholder="name" className='bg-primary text-center ps-3' onChange={e=>handleChange(e.target.value)}>
                             {options.map((option)=>(
-                                <option value={option}>{option}</option>
+                                <option value={option} className="bg-light text-dark text-start">{option}</option>
                             ))}
                         </select>
                         <input type="text" class="form-control" aria-label="Text input with dropdown button" onChange={handleInput}/>
